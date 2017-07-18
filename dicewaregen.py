@@ -55,7 +55,7 @@ def main():
         exit("Please use int for argv")
 
     for _ in range(cycle):
-        print generate_password(dw_dict)
+        print (generate_password(dw_dict))
     return
 
 
